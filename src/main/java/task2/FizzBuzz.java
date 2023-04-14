@@ -31,6 +31,8 @@ public class FizzBuzz {
         for (String result : results) {
             System.out.println(result);
         }
+
+        threads.shutdown();
     }
 
     private Stream<Integer> getStream() {
