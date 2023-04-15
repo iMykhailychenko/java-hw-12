@@ -10,6 +10,11 @@ public class FizzBuzz {
     private int amount;
     private String[] results;
 
+    public static void main(String[] args) {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        fizzBuzz.run(30);
+    }
+
     public void run(int n) {
         amount = n;
         results = new String[n];
